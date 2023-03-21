@@ -11,8 +11,6 @@ while  sinal:
     if numero ==  item:
         resultado = numero
         sinal = False
-        indice = contador
+        print(f"O numero {numero} ocupa a posição {contador}")
     else:
         contador += 1
-
-print(f"Indice: {indice}")
